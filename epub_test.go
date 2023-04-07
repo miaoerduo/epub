@@ -3,7 +3,7 @@ package epub_test
 import (
 	"testing"
 
-	"github.com/kapmahc/epub"
+	"github.com/miaoerduo/epub"
 )
 
 func TestEpub(t *testing.T) {

@@ -21,7 +21,7 @@ type Book struct {
 
 //Open open resource file
 func (p *Book) Open(n string) (io.ReadCloser, error) {
-	return p.open(p.filename(n))
+	return p.open(n)
 }
 
 //Files list resource files
